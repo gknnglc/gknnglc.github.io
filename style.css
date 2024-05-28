@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2b8020;
+}
+
+header {
+    background-color: #015fd0;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #b3761d;
+}
+
+nav a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #f8d177;
+}
+
+.container {
+    flex: 1;
+    padding: 2rem;
+    position: relative;
+}
+
+#anasayfa {
+    background-image: url('./assets/images/1000014692_JHhMa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#anasayfa .content {
+    background-color: green;
+    padding: 1rem;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+.player {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
