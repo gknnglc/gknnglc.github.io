@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -28,16 +29,20 @@ header .logo {
 }
 
 nav {
-    display: flex;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
     justify-content: center;
     background-color: #b3761d;
+    text-align: center;
 }
 
 nav a {
     color: #fff;
+    display: inline-flex;
     padding: 1rem;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
 }
 
 nav a:hover {
@@ -51,7 +56,6 @@ nav a:hover {
 }
 
 #anasayfa {
-    background-image: url('./assets/images/1000014692_JHhMa.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -59,13 +63,6 @@ nav a:hover {
 #anasayfa .content {
     background-color: green;
     padding: 1rem;
-}
-
-.image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
 }
 
 .player {
@@ -81,4 +78,13 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+}
+hr {
+    border: 1px solid black;    
+}
+.goruntuler {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
 }
