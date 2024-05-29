@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #2b8020;
+    background-color: lightgreen;
 }
 
 header {
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 #anasayfa .content {
-    background-color: green;
+    background-color: lightgreen;
     padding: 1rem;
 }
 
@@ -88,3 +88,18 @@ hr {
     display: block;
     margin: 1rem auto;
 }
+.takim-logo {
+    max-width: 100px;
+    height: 100px;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+
+#cevizlispor {
+    width: 120px;
+}
+#bruderschaft {
+    width: 200px;
+    height: auto;
+    margin: 1rem auto;
+} 
